@@ -32,6 +32,8 @@ class QuestionView(View):
         answer = index.query(query_str, text_qa_template=QA_PROMPT)
         return JsonResponse({'answer': answer.response})
 
+
+
     def post(self, request, *args, **kwargs):
         # Handle POST requests if needed
         pass
