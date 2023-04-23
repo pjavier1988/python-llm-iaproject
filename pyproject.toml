@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-llm-iaproject"
+version = "0.1.0"
+description = "Project generated to test libraries related to llm"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "python_llm_iaproject"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+llama-index = "0.4.24"
+tiktoken = "0.3.0"
+langchain = "0.0.106"
+python-dotenv = "1.0.0"
+django = "4.1.7"
+djangorestframework = "3.14.0"
+django-cors-headers = "3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
